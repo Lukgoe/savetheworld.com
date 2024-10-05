@@ -1,0 +1,53 @@
+table{
+    font-size: 24px;
+    border: 1px solid rgb(27, 23, 23);
+    border-collapse: collapse;
+    background-color: #425c70;
+    border-radius: 20px;
+
+}
+
+td, th{
+    border: 1px solid rgb(27, 23, 23);
+    padding: 10px 25px;
+    text-align: left
+}
+thead{
+    border-radius: 20px;
+    background-color: royalblue;
+    
+}
+
+th:first-child{
+    border-radius: 20px 0 0 0;
+}
+
+th:last-child{
+    border-radius: 0 20px 0 0;
+}
+
+
+tr:nth-child(even){
+    background-color:#314556;
+}
+
+/* Container für den Inhalt */
+.content {
+    max-width: 800px;      /* Maximale Breite für den Textcontainer */
+    margin: 0 auto;        /* Zentriert den Inhalt auf der Seite */
+}
+
+/* Bild auf der rechten Seite platzieren */
+.img-right {
+    float: right;          /* Bild rechts positionieren */
+    margin-left: 20px;     /* Abstand zum Text links */
+    margin-bottom: 20px;   /* Abstand unter dem Bild */
+    width: 300px;          /* Breite des Bildes */
+    height: auto;          /* Höhe automatisch anpassen, um Seitenverhältnis zu wahren */
+}
+
+/* Styling für den Text */
+p {
+    font-size: 16px;
+    line-height: 1.6;      /* Verbesserte Lesbarkeit */
+}
